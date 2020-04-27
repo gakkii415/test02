@@ -5,6 +5,7 @@ body{
 	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 	color: #333;
 	margin: 0;
+	background-image: url("bg.jpg");
 }
 
 
