@@ -203,7 +203,8 @@ section p{
 	justify-content:flex-end;
 	width: 100%;
 	text-align: center;
-	margin: 20px 0;
+	padding: 20px 0;
+	background-color: rgba(250,250,250,1.00);}
 }
 
 
