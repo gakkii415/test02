@@ -37,12 +37,23 @@ h3{
 .pictures{
 	text-align: center;
 }
-
-.content1 img{
+@media screen and (min-width:576px) {
+	.content1 img{
 	width: 21%;	
 	margin: 0 .5%;
 		transition: .5s
 }
+}
+
+@media screen and (max-width:575px) {
+
+	.content1 img{
+	width: 40%;	
+	margin: 0 .5% 10px .5%;
+		transition: .5s
+}
+}
+
 
 .content1 img:hover{
 	opacity: .5;
