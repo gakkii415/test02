@@ -54,18 +54,47 @@ h3{
 	margin: 0 auto;
 }
 
-.content3 img{
-	margin-left: 15%;
-	margin-right: 15%;
 
-	float: left;
+@media screen and (min-width:576px) {
+	
+.content3 img{
+	margin-right: 20%;
+	width: 350px;
+	float: right;
+}
 }
 
+
+@media screen and (max-width:575px) {
+	.content3 img{
+		margin-left: 15%;
+		width: 	70%;
+		
+	}
+	
+}
+
+@media screen and (min-width:576px) {
+	
 .content3 ul{
-	margin: 150px 0;
+	margin: 15% 0 200px 10%;
 	line-height: 40px;
 }
+}
 
+@media screen and (max-width:575px) {
+	.content3 ul{
+		margin-top: 50px;
+		margin-bottom: 100px;
+		margin-left: 10%;
+		line-height: 40px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.content3 li{
+		width: 50%;
+	}
+}
 .content3 li{
 	list-style:none;
 }
@@ -126,11 +155,22 @@ footer{
 	overflow:hidden;
 	padding: 40px 10px;
 }
+
+@media screen and (min-width:576px) {
+	
 section{
 	float: left;
 	justify-content: center;
 	width: 31%;
 	margin:0 .5% ;
+}
+}
+
+@media screen and (max-width:575px) {
+	section{
+		margin: 40px 0;
+	}
+	
 }
 
 section h5{
